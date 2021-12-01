@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import IUser from "./types/user.type";
+import IUser from "/types/user.type";
 import * as AuthService from "./services/auth.service";
 
 const App: React.FC = () => {
